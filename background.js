@@ -15,7 +15,7 @@ async function groupTabs() {
       body: JSON.stringify({
         "model": "text-davinci-003",
         "prompt": `Please classify and group related urls ${tabsUrl}. Please response a stringified json format: name of the classification, array of following related urls. Example: {"AWS Related": ["https...", "https://"]}`,
-        "max_tokens": 3000,
+        "max_tokens": 3800,
       })
     });
     const responseData = await response.json();
