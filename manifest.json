@@ -4,7 +4,8 @@
     "version": "1.0",
     "description": "Chrome extension for automatically grouping tabs using TypeScript",
     "permissions": [
-        "tabs"
+        "tabs",
+        "tabGroups"
     ],
     "host_permissions": [
         "http://*/*",

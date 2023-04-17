@@ -18,5 +18,6 @@
   "homepage": "https://github.com/chenqianJingJ/Hackfest-Grouping-Tabs-Extension#readme",
   "dependencies": {
     "openai": "^3.2.1"
-  }
+  },
+  "type": "module"
 }
