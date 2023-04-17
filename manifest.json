@@ -12,7 +12,7 @@
         "https://*/*"
     ],
     "action": {
-        "default_icon": "cat-tabs.png",
-        "default_popup": "hello.html"
+        "default_icon": "tabsGroupingCat.png",
+        "default_popup": "smallWindow.html"
     }
 }
