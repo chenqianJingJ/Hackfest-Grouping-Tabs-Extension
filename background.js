@@ -36,9 +36,10 @@ async function groupTabs() {
       console.log(groupId);
       await chrome.tabGroups.update(groupId, { title: key });
     }
+    window.close();
   } catch (error) {
     console.error(error);
-  }
+  } 
 }
 
 /*

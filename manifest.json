@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Tab Grouping Robot",
+    "name": "Tab Grouping Helper",
     "version": "1.0",
     "description": "Chrome extension for automatically grouping tabs using TypeScript",
     "permissions": [
@@ -12,7 +12,7 @@
         "https://*/*"
     ],
     "action": {
-        "default_icon": "tabsGroupingCat.png",
+        "default_icon": "assets/tabsGroupingCat.png",
         "default_popup": "smallWindow.html"
     }
 }
