@@ -5,7 +5,7 @@ async function groupTabs() {
     const tabsCollection = await getAllTabsUrl();
     const tabsUrl = Object.keys(tabsCollection);
     console.log(tabsCollection);
-    const apiKey = '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';
+    const apiKey = '';
     const response = await fetch('https://api.openai.com/v1/completions', {
       method: 'POST',
       headers: {
